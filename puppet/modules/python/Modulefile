@@ -1,0 +1,8 @@
+name    'footballradar-python'
+version '0.1.0'
+source 'https://github.com/footballradar/puppet-python'
+author 'footballradar'
+license 'Apache License, Version 2.0'
+summary 'Provides Python and Python development packages'
+description 'Provides Python and Python development packages'
+project_page 'https://github.com/footballradar/puppet-python'

@@ -1,0 +1,25 @@
+{
+  "name": "footballradar-python",
+  "version": "0.1.0",
+  "source": "https://github.com/footballradar/puppet-python",
+  "author": "footballradar",
+  "license": "Apache License, Version 2.0",
+  "summary": "Provides Python and Python development packages",
+  "description": "Provides Python and Python development packages",
+  "project_page": "https://github.com/footballradar/puppet-python",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "bd4debf7827be300b7d8bf99318219f0",
+    "Modulefile": "d4fd618c24fa5397d7b54403fb6509c6",
+    "README.md": "40253614d44e7e8d54703aa1112a3b48",
+    "manifests/init.pp": "5cab6b29b78e753c9cf42f162602eaf5",
+    "manifests/params.pp": "9bda35db605f3a2c8e48325ce70974f2",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "tests/init.pp": "bf1ce3dce6a21fc91f8424f9d9e2224d"
+  }
+}
