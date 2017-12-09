@@ -27,7 +27,7 @@ node default {
 
   exec { 'deployapp':
     cwd => '/opt/app/system-engineer',
-    command => '/bin/python app/app.py &',
+    command => '/bin/nohup /bin/python app/app.py &',
   }
     
 
