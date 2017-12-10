@@ -31,12 +31,12 @@ variable "vpc_id" {
     default     = "enter value vpc id"
 }
 variable "access_key" {
-    default = "enter value for access key"
     description = "Add Access key"
+    default = "enter value for access key"
 }
 variable "secret_key" {
-    default = "enter value for secret key"
     description = "Add secret_key"
+    default = "enter value for secret key"
 }
 
 # Can be used if using custom ssh key
