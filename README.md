@@ -51,11 +51,18 @@ Deploy Flask app
     
     
     
- Technologies Used:
+ Technologies Used
+
  Cloud Provider : AWS
+
  Infrastructure Automation : Terraform
+
  High availability, Scaling and Monitoring: Autoscaling, ELB
+
  Configuration management : Puppet
+
  Scripting : Shell and Python
+
  Instance OS : Centos 7 AMI
+
  Default terraform binary compatible with MAC OS
