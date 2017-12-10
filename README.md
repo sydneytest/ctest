@@ -60,10 +60,12 @@ Deploy Flask app
      After app deployment, script access the application end point from AWS ELB and return the status.
      
  5. After the above successful URL Sanity testing proceed to unit testing.
-
-    Execute testing.sh. This will prompt to enter the IP address of the instance, which can be found in instance_ip.txt(This txt file would be generated during deployment.)
+    
+    Execute testing.sh. This will prompt to enter the IP address of the instance, which can be found in instance_ip.txt(This txt file would be generated during deployment.) Also change the permission of ssk_key to 400 (ssk_key.pub will be used to generate ssh key for centos user on the instance)
 
       cd ctest/deploy/
+
+      chmod 400 ssk_key
 
       ./testing.sh   
       
