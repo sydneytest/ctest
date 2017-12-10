@@ -1,6 +1,9 @@
 #!/bin/bash
 # Running unit test
 
+# Changing permissions on the ssh key
+chmod 400 ssk_key
+
 # Reading input ip address
 read -p "Enter ip: " ip
 
