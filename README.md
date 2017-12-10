@@ -22,8 +22,16 @@ Deploy Flask app
        Unzip the package. Terraform runs as a single binary named terraform. Replace terraform binary in deploy folder with this binary.
 
        Default terraform binary in deploy folder is compatible with MAC OS
+ 6.   AWS cli installed
+
+      How to install aws cli:
+
+      Follow the steps from http://docs.aws.amazon.com/cli/latest/userguide/installing.html
+  
+      AWS cli should be added to the PATH
+
+      example: export PATH=$PATH:/Users/user1/Library/Python/2.7/bin/
               
- 
  
  Steps to deploy:
  
