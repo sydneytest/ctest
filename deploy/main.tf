@@ -1,4 +1,4 @@
-## Template for commbank test
+## Template for ctest
 
 # Configure the AWS Provider
 provider "aws" {
